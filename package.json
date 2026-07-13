@@ -1,0 +1,34 @@
+{
+  "name": "climent-ads-assistant",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Self-hosted, read-only ads evidence console for Meta and Google marketing data — with a synthetic demo mode.",
+  "keywords": [
+    "ads",
+    "marketing",
+    "google-ads",
+    "meta-ads",
+    "analytics",
+    "read-only",
+    "self-hosted",
+    "reporting"
+  ],
+  "homepage": "https://climentmedia.com",
+  "author": "Climent Media (https://climentmedia.com)",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Manucliment/climent-ads-assistant.git"
+  },
+  "bugs": {
+    "url": "https://climentmedia.com"
+  },
+  "scripts": {
+    "start": "node demo/server.mjs",
+    "validate:demo": "node --check demo/server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

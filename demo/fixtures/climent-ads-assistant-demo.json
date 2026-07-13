@@ -1,0 +1,41 @@
+{
+  "version": "oss_demo_fixture_v1",
+  "generated_for": "Climent Ads Assistant",
+  "synthetic": true,
+  "client": {
+    "client_profile_id": "demo_client_profile_001",
+    "display_name": "Demo Dental Studio",
+    "market": "Demo Market",
+    "primary_goal": "lead_generation",
+    "primary_kpi": "qualified_leads"
+  },
+  "providers": [
+    { "provider": "meta_ads", "status": "connected_demo", "collection_status": "paused_demo" },
+    { "provider": "google_ads", "status": "connected_demo", "collection_status": "available_demo" },
+    { "provider": "ga4", "status": "connected_demo", "collection_status": "available_demo" },
+    { "provider": "search_console", "status": "connected_demo", "collection_status": "available_demo" },
+    { "provider": "gtm", "status": "metadata_only", "collection_status": "metadata_only" }
+  ],
+  "results_summary": {
+    "window": "last_30_closed_days",
+    "currency": "EUR",
+    "channels": [
+      { "channel": "google_ads", "spend": 1320.5, "conversions": 42, "cpl": 31.44, "coverage_status": "available" },
+      { "channel": "meta_ads", "spend": 0, "conversions": 0, "cpl": null, "coverage_status": "no_rows_observed" }
+    ]
+  },
+  "benchmarks": {
+    "status": "ready_with_demo_data",
+    "primary_window": "90d",
+    "notes": ["Synthetic benchmark data for public walkthroughs only."]
+  },
+  "weekly_changes": [
+    {
+      "source": "operator_demo",
+      "channel": "google_ads",
+      "action_type": "budget_review",
+      "impact_status": "measuring",
+      "summary": "Demo budget review entry using synthetic data."
+    }
+  ]
+}
